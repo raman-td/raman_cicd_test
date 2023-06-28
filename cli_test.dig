@@ -3,4 +3,4 @@ _export:
     database: lce_clickstream_src
     table: test_table
     abc: abc
-    test: 123
+    test: 12
