@@ -14,4 +14,4 @@ jobs:
       uses: treasuredataps/td_wf_deploy@0.0.1
       with:
           td_master_apikey: ${{ secrets.td_master_apikey }}
-          td_wf_project_names: raman_cicd_test
+          td_wf_project_name: raman_cicd_test
