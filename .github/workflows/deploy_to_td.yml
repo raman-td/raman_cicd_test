@@ -15,4 +15,4 @@ jobs:
       with:
           td_master_apikey: ${{ secrets.td_master_apikey }}
           td_wf_endpoint: https://api-workflow.treasuredata.com
-          td_wf_project_name: raman_cicd_test
+          td_wf_project_name: Raman_cicd_test
