@@ -11,8 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: "td wf push"
-      uses: treasuredataps/tdw-actions@master
+      uses: treasuredataps/td_wf_deploy@0.0.1
       with:
           td_master_apikey: ${{ secrets.td_master_apikey }}
-          td_wf_project_names: raman_cicd_test 
-          github_path: e
+          td_wf_project_names: raman_cicd_test
